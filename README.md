@@ -4,6 +4,9 @@
 [![Tests](https://img.shields.io/badge/Tests-12%2F12%20Passing-brightgreen)]()
 [![Verilog](https://img.shields.io/badge/Language-Verilog%20%2F%20Python-orange)]()
 
+## Architecture Overview
+![NIMA-STEP data path](docs/ca_coprocessor.svg)
+
 **NIMA-STEP** is a custom RISC-V coprocessor that accelerates cellular automata computation through hardware-software co-design, achieving **100–500× speedup** over software baselines for rules like Rule 110 and Conway's Game of Life.
 
 ## Features
